@@ -14,8 +14,8 @@ public class One {
         int b[][]= new int [m+1][n+1];
         for(i=0; i<m; i++) {
             for (j = n-1; j > -1; j--) {
-                if (j > 1) System.out.print(a[j][i]+" ");
-                else System.out.print(a[j][i]+" ");
+                System.out.print(a[j][i]+" ");
+
             }
             System.out.println("");
 
